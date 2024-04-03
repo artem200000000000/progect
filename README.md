@@ -8,4 +8,4 @@
 - BeautifulSoup
 
 ## Гайды-статьи, где есть полезная для меня информация
-код с примером по детектированию https://colab.research.google.com/drive/11DN61TKJxyQ_3g9sqrO5xznL-u9khdYc?usp=sharing, код с примером для сайта git@github.com:artem200000000000/-.git
+код с примером по детектированию https://colab.research.google.com/drive/11DN61TKJxyQ_3g9sqrO5xznL-u9khdYc?usp=sharing, код с примером для сайта https://github.com/artem200000000000/-.git)

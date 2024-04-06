@@ -8,7 +8,7 @@
 - PIL
 - numpy
 ## Гайды-статьи, где есть полезная для меня информация
-код с примером по детектированию https://colab.research.google.com/drive/11DN61TKJxyQ_3g9sqrO5xznL-u9khdYc?usp=sharing, код с примером для сайта https://github.com/artem200000000000/-.git https://colab.research.google.com/drive/12k76RRV4V3vWatLYxc_dOGRbeo2P4Y1n?usp=sharing
+код с примером для сайта https://github.com/artem200000000000/-.git https://colab.research.google.com/drive/12k76RRV4V3vWatLYxc_dOGRbeo2P4Y1n?usp=sharing
 
 
 

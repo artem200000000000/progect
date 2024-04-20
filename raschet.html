@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>Утилизация CO2 растениями</title>
+  <script>
+    function calculateResult() {
+        // Get the user-entered number
+        let userInput = parseFloat(document.getElementById('userNumber').value);
+        
+        // Calculate the result
+        let result = userInput * 0.432;
+        
+        // Display the result on the webpage
+        document.getElementById('result').innerText = `Результат: ${result.toFixed(2)}`;
+    }
+  </script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__text">
+      <h1>Утилизация CO2 растениями</h1>
+      <p>Решите проблему глобального потепления самостоятельно! Ага, конечно, я в вас верю!</p>
+    </div>
+  </header>
+  <main>
+    <img class="card__img" src="../static/img/pirey.jpg"  alt="post_icon">
+    <img class="card__img2" src="../static/img/pirey_shema.jpg"  alt="post_icon">
+    <span class="text_result">С вероятностью ...% на фото изображен "Пырей ползучий"</span>
+    <span class="text_result">Сухая масса органики 96%</span>
+    <span class="text_result">урожайность (соломы) 10ц/га</span>
+    <span class="text_result">доля углерода 45%</span>
+    <span class="text_result">для вычесления массы углерода на данной площадке введите площадь в (м2/)</span>
+    <form class="creat-form">
+        <div class="form__card">
+            <div class="form__inputs">
+                <label for="title"></label>
+                <input type="number" id="userNumber" placeholder="Введите число" value="">
+                <button type="button" onclick="calculateResult()">Умножить на 0.432</button>
+            </div>
+        </div>
+    </form>
+    
+    <div id="result" class="form__result"></div>
+  </main>
+</body>
+</html>
